@@ -1,0 +1,135 @@
+body {
+  background: url('https://previews.123rf.com/images/antuanetto/antuanetto1503/antuanetto150300039/37772823-Lindo-patr-n-transparente-turquesa-floral-Se-puede-utilizar-para-fondos-de-pantalla-rellenos-p-gina--Foto-de-archivo.jpg');
+  background-attachment: fixed !important;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 50px;
+}
+
+header {
+  overflow: auto;
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  color: #ff818f;
+  background-color: white;
+}
+
+header h1 {
+  color: white;
+  float: left;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ff818f;
+}
+
+nav {
+  display: inline-block;
+  height: 50px;
+}
+
+header h1 {
+  margin: 6px 0px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 50px;
+  color: #ff818f;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 4px 22px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: rgba(0,0,0,0) 2px solid;
+  color: #ff818f;
+}
+nav li a.active,
+nav li a:hover{
+  border-radius: 5px;
+  border: white 2px solid;
+}
+
+nav li:last-child {
+  margin-right: 0px;
+}
+
+section {
+  width: 60%;
+  overflow: auto;
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.5);
+   color: #ff818f;
+}
+
+section h1, section h2, section h3,
+section p, section a, section li {
+  color: white;
+}
+
+section h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.23);
+  text-align: left;
+  margin-bottom: 50px
+  padding-bottom: 20px;
+  color: #ff818f;
+  clear:both;
+}
+
+section p {
+  line-height: 1.8em;
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+section p strong {
+  font-weight: bold;
+  color: #fffd75;
+}
+
+section p em {
+  color: #ff7649;
+  font-weight: bold;
+}
+
+section p:last-child {
+  margin-bottom: 0px;
+}
+
+section img {
+  width: 60%;
+  margin: 55px auto;
+  padding: 5px;
+  border: 5px dashed rgba(255,255,255, 0.23);
+  display: block;
+}
+
+section img.small {
+  width: 40%;
+  margin-top: 3px;
+}
+
+section img.referencias {
+width: 273px;
+margin-top: -360px;
+height: 380px
+}
